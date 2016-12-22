@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35F14961E0B81A100BF167D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14951E0B81A100BF167D /* main.m */; };
+		D35F14991E0B81A100BF167D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14981E0B81A100BF167D /* AppDelegate.m */; };
+		D35F149C1E0B81A100BF167D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F149B1E0B81A100BF167D /* ViewController.m */; };
+		D35F149F1E0B81A100BF167D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35F149D1E0B81A100BF167D /* Main.storyboard */; };
+		D35F14A11E0B81A100BF167D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35F14A01E0B81A100BF167D /* Assets.xcassets */; };
+		D35F14A41E0B81A100BF167D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35F14A21E0B81A100BF167D /* LaunchScreen.storyboard */; };
+		D35F14AF1E0B81A100BF167D /* FLFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14AE1E0B81A100BF167D /* FLFileManagerTests.m */; };
+		D35F14BA1E0B81A100BF167D /* FLFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14B91E0B81A100BF167D /* FLFileManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35F14AB1E0B81A100BF167D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35F14891E0B81A000BF167D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35F14901E0B81A100BF167D;
+			remoteInfo = FLFileManager;
+		};
+		D35F14B61E0B81A100BF167D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35F14891E0B81A000BF167D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35F14901E0B81A100BF167D;
+			remoteInfo = FLFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D35F14911E0B81A100BF167D /* FLFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35F14951E0B81A100BF167D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35F14971E0B81A100BF167D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D35F14981E0B81A100BF167D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35F149A1E0B81A100BF167D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35F149B1E0B81A100BF167D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35F149E1E0B81A100BF167D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35F14A01E0B81A100BF167D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35F14A31E0B81A100BF167D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35F14A51E0B81A100BF167D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35F14AA1E0B81A100BF167D /* FLFileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLFileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35F14AE1E0B81A100BF167D /* FLFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLFileManagerTests.m; sourceTree = "<group>"; };
+		D35F14B01E0B81A100BF167D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35F14B51E0B81A100BF167D /* FLFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35F14B91E0B81A100BF167D /* FLFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLFileManagerUITests.m; sourceTree = "<group>"; };
+		D35F14BB1E0B81A100BF167D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35F148E1E0B81A100BF167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14A71E0B81A100BF167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14B21E0B81A100BF167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35F14881E0B81A000BF167D = {
+			isa = PBXGroup;
+			children = (
+				D35F14931E0B81A100BF167D /* FLFileManager */,
+				D35F14AD1E0B81A100BF167D /* FLFileManagerTests */,
+				D35F14B81E0B81A100BF167D /* FLFileManagerUITests */,
+				D35F14921E0B81A100BF167D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35F14921E0B81A100BF167D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14911E0B81A100BF167D /* FLFileManager.app */,
+				D35F14AA1E0B81A100BF167D /* FLFileManagerTests.xctest */,
+				D35F14B51E0B81A100BF167D /* FLFileManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35F14931E0B81A100BF167D /* FLFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14971E0B81A100BF167D /* AppDelegate.h */,
+				D35F14981E0B81A100BF167D /* AppDelegate.m */,
+				D35F149A1E0B81A100BF167D /* ViewController.h */,
+				D35F149B1E0B81A100BF167D /* ViewController.m */,
+				D35F149D1E0B81A100BF167D /* Main.storyboard */,
+				D35F14A01E0B81A100BF167D /* Assets.xcassets */,
+				D35F14A21E0B81A100BF167D /* LaunchScreen.storyboard */,
+				D35F14A51E0B81A100BF167D /* Info.plist */,
+				D35F14941E0B81A100BF167D /* Supporting Files */,
+			);
+			path = FLFileManager;
+			sourceTree = "<group>";
+		};
+		D35F14941E0B81A100BF167D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14951E0B81A100BF167D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D35F14AD1E0B81A100BF167D /* FLFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14AE1E0B81A100BF167D /* FLFileManagerTests.m */,
+				D35F14B01E0B81A100BF167D /* Info.plist */,
+			);
+			path = FLFileManagerTests;
+			sourceTree = "<group>";
+		};
+		D35F14B81E0B81A100BF167D /* FLFileManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14B91E0B81A100BF167D /* FLFileManagerUITests.m */,
+				D35F14BB1E0B81A100BF167D /* Info.plist */,
+			);
+			path = FLFileManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35F14901E0B81A100BF167D /* FLFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35F14BE1E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManager" */;
+			buildPhases = (
+				D35F148D1E0B81A100BF167D /* Sources */,
+				D35F148E1E0B81A100BF167D /* Frameworks */,
+				D35F148F1E0B81A100BF167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLFileManager;
+			productName = FLFileManager;
+			productReference = D35F14911E0B81A100BF167D /* FLFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35F14A91E0B81A100BF167D /* FLFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35F14C11E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerTests" */;
+			buildPhases = (
+				D35F14A61E0B81A100BF167D /* Sources */,
+				D35F14A71E0B81A100BF167D /* Frameworks */,
+				D35F14A81E0B81A100BF167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35F14AC1E0B81A100BF167D /* PBXTargetDependency */,
+			);
+			name = FLFileManagerTests;
+			productName = FLFileManagerTests;
+			productReference = D35F14AA1E0B81A100BF167D /* FLFileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35F14B41E0B81A100BF167D /* FLFileManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35F14C41E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerUITests" */;
+			buildPhases = (
+				D35F14B11E0B81A100BF167D /* Sources */,
+				D35F14B21E0B81A100BF167D /* Frameworks */,
+				D35F14B31E0B81A100BF167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35F14B71E0B81A100BF167D /* PBXTargetDependency */,
+			);
+			name = FLFileManagerUITests;
+			productName = FLFileManagerUITests;
+			productReference = D35F14B51E0B81A100BF167D /* FLFileManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35F14891E0B81A000BF167D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fanxn;
+				TargetAttributes = {
+					D35F14901E0B81A100BF167D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YVUDN5DTBD;
+						ProvisioningStyle = Automatic;
+					};
+					D35F14A91E0B81A100BF167D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35F14901E0B81A100BF167D;
+					};
+					D35F14B41E0B81A100BF167D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35F14901E0B81A100BF167D;
+					};
+				};
+			};
+			buildConfigurationList = D35F148C1E0B81A000BF167D /* Build configuration list for PBXProject "FLFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35F14881E0B81A000BF167D;
+			productRefGroup = D35F14921E0B81A100BF167D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35F14901E0B81A100BF167D /* FLFileManager */,
+				D35F14A91E0B81A100BF167D /* FLFileManagerTests */,
+				D35F14B41E0B81A100BF167D /* FLFileManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35F148F1E0B81A100BF167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F14A41E0B81A100BF167D /* LaunchScreen.storyboard in Resources */,
+				D35F14A11E0B81A100BF167D /* Assets.xcassets in Resources */,
+				D35F149F1E0B81A100BF167D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14A81E0B81A100BF167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14B31E0B81A100BF167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35F148D1E0B81A100BF167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F149C1E0B81A100BF167D /* ViewController.m in Sources */,
+				D35F14991E0B81A100BF167D /* AppDelegate.m in Sources */,
+				D35F14961E0B81A100BF167D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14A61E0B81A100BF167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F14AF1E0B81A100BF167D /* FLFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35F14B11E0B81A100BF167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F14BA1E0B81A100BF167D /* FLFileManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35F14AC1E0B81A100BF167D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35F14901E0B81A100BF167D /* FLFileManager */;
+			targetProxy = D35F14AB1E0B81A100BF167D /* PBXContainerItemProxy */;
+		};
+		D35F14B71E0B81A100BF167D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35F14901E0B81A100BF167D /* FLFileManager */;
+			targetProxy = D35F14B61E0B81A100BF167D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35F149D1E0B81A100BF167D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35F149E1E0B81A100BF167D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35F14A21E0B81A100BF167D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35F14A31E0B81A100BF167D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35F14BC1E0B81A100BF167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D35F14BD1E0B81A100BF167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35F14BF1E0B81A100BF167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVUDN5DTBD;
+				INFOPLIST_FILE = FLFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D35F14C01E0B81A100BF167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVUDN5DTBD;
+				INFOPLIST_FILE = FLFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D35F14C21E0B81A100BF167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLFileManager.app/FLFileManager";
+			};
+			name = Debug;
+		};
+		D35F14C31E0B81A100BF167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLFileManager.app/FLFileManager";
+			};
+			name = Release;
+		};
+		D35F14C51E0B81A100BF167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLFileManager;
+			};
+			name = Debug;
+		};
+		D35F14C61E0B81A100BF167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLFileManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35F148C1E0B81A000BF167D /* Build configuration list for PBXProject "FLFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35F14BC1E0B81A100BF167D /* Debug */,
+				D35F14BD1E0B81A100BF167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35F14BE1E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35F14BF1E0B81A100BF167D /* Debug */,
+				D35F14C01E0B81A100BF167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D35F14C11E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35F14C21E0B81A100BF167D /* Debug */,
+				D35F14C31E0B81A100BF167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D35F14C41E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35F14C51E0B81A100BF167D /* Debug */,
+				D35F14C61E0B81A100BF167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35F14891E0B81A000BF167D /* Project object */;
+}
