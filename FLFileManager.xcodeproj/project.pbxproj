@@ -15,6 +15,7 @@
 		D35F14A41E0B81A100BF167D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35F14A21E0B81A100BF167D /* LaunchScreen.storyboard */; };
 		D35F14AF1E0B81A100BF167D /* FLFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14AE1E0B81A100BF167D /* FLFileManagerTests.m */; };
 		D35F14BA1E0B81A100BF167D /* FLFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14B91E0B81A100BF167D /* FLFileManagerUITests.m */; };
+		D35F14CA1E0B829000BF167D /* FLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F14C91E0B829000BF167D /* FLFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D35F14B51E0B81A100BF167D /* FLFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35F14B91E0B81A100BF167D /* FLFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLFileManagerUITests.m; sourceTree = "<group>"; };
 		D35F14BB1E0B81A100BF167D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35F14C81E0B829000BF167D /* FLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFileManager.h; sourceTree = "<group>"; };
+		D35F14C91E0B829000BF167D /* FLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D35F14931E0B81A100BF167D /* FLFileManager */ = {
 			isa = PBXGroup;
 			children = (
+				D35F14C71E0B824E00BF167D /* FLFileManager */,
 				D35F14971E0B81A100BF167D /* AppDelegate.h */,
 				D35F14981E0B81A100BF167D /* AppDelegate.m */,
 				D35F149A1E0B81A100BF167D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D35F14BB1E0B81A100BF167D /* Info.plist */,
 			);
 			path = FLFileManagerUITests;
+			sourceTree = "<group>";
+		};
+		D35F14C71E0B824E00BF167D /* FLFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				D35F14C81E0B829000BF167D /* FLFileManager.h */,
+				D35F14C91E0B829000BF167D /* FLFileManager.m */,
+			);
+			path = FLFileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				D35F149C1E0B81A100BF167D /* ViewController.m in Sources */,
 				D35F14991E0B81A100BF167D /* AppDelegate.m in Sources */,
 				D35F14961E0B81A100BF167D /* main.m in Sources */,
+				D35F14CA1E0B829000BF167D /* FLFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +522,7 @@
 				D35F14C01E0B81A100BF167D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35F14C11E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +531,7 @@
 				D35F14C31E0B81A100BF167D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35F14C41E0B81A100BF167D /* Build configuration list for PBXNativeTarget "FLFileManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +540,7 @@
 				D35F14C61E0B81A100BF167D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
